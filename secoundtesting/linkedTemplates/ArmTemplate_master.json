@@ -11,9 +11,25 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'accountKey' of 'AzureDataLakeStorage1'"
 		},
+		"SqlDatabaseLink1_password": {
+			"type": "secureString",
+			"metadata": "Secure string for 'password' of 'SqlDatabaseLink1'"
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://firstaccount356.dfs.core.windows.net/"
+		},
+		"SqlDatabaseLink1_properties_typeProperties_server": {
+			"type": "string",
+			"defaultValue": "demosqserver.database.windows.net"
+		},
+		"SqlDatabaseLink1_properties_typeProperties_database": {
+			"type": "string",
+			"defaultValue": "firstSQLdatabase"
+		},
+		"SqlDatabaseLink1_properties_typeProperties_userName": {
+			"type": "string",
+			"defaultValue": "Krishana"
 		},
 		"containerUri": {
 			"type": "string",
@@ -45,8 +61,20 @@
 					"AzureDataLakeStorage1_accountKey": {
 						"value": "[parameters('AzureDataLakeStorage1_accountKey')]"
 					},
+					"SqlDatabaseLink1_password": {
+						"value": "[parameters('SqlDatabaseLink1_password')]"
+					},
 					"AzureDataLakeStorage1_properties_typeProperties_url": {
 						"value": "[parameters('AzureDataLakeStorage1_properties_typeProperties_url')]"
+					},
+					"SqlDatabaseLink1_properties_typeProperties_server": {
+						"value": "[parameters('SqlDatabaseLink1_properties_typeProperties_server')]"
+					},
+					"SqlDatabaseLink1_properties_typeProperties_database": {
+						"value": "[parameters('SqlDatabaseLink1_properties_typeProperties_database')]"
+					},
+					"SqlDatabaseLink1_properties_typeProperties_userName": {
+						"value": "[parameters('SqlDatabaseLink1_properties_typeProperties_userName')]"
 					}
 				}
 			},

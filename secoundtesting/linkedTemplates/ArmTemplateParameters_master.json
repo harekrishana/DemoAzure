@@ -8,8 +8,20 @@
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"SqlDatabaseLink1_password": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://firstaccount356.dfs.core.windows.net/"
+		},
+		"SqlDatabaseLink1_properties_typeProperties_server": {
+			"value": "demosqserver.database.windows.net"
+		},
+		"SqlDatabaseLink1_properties_typeProperties_database": {
+			"value": "firstSQLdatabase"
+		},
+		"SqlDatabaseLink1_properties_typeProperties_userName": {
+			"value": "Krishana"
 		},
 		"containerUri": {
 			"value": ""
