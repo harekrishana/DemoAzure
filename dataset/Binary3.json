@@ -1,8 +1,8 @@
 {
-	"name": "Binary2",
+	"name": "Binary3",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureDataLakeStorage1",
+			"referenceName": "AzureDeleteStorage3",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "data_test.csv",
 				"fileSystem": "csvcontainer"
 			}
 		}

@@ -1,0 +1,9 @@
+{
+	"name": "secoundtesting",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "012fb939-b178-4166-8943-cab9b289d7c5",
+		"tenantId": "12766cab-91dc-4211-98b1-5bd1ee553910"
+	}
+}
